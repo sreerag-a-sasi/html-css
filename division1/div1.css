@@ -1,0 +1,22 @@
+#one{
+    background-color: red;
+    width: 300px;
+    height: 100vh;
+    position: fixed;
+}
+#two{
+    background-color: green;
+    width: 200px;
+    height: 70vh;
+    position: relative;
+    top: 15%;
+    margin-left: 17%;
+}
+#three{
+    background-color: blue;
+    width: 100px;
+    height: 20vh;
+    position: relative;
+    top:35%;
+    margin-left: 24%;
+}
