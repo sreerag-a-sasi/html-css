@@ -1,0 +1,23 @@
+.flex-container {
+    display: flex;
+    background-color: DodgerBlue;
+    width: 100%;
+  }
+  
+  .flex-container div {
+    font-size: 30px;
+    width: 100%;
+    height: 50vh;
+    border: 2px solid black;
+  }
+  #one{
+    background-color: black;
+  }
+  #two{
+    background-color: black;
+  }
+  h1{
+    color: azure;
+    text-align: center;
+    padding-top: 15%;
+  }
