@@ -1,0 +1,7 @@
+div{
+    background-color: rgb(21, 212, 174);
+    width: 200px;
+    height: 20vh;
+    border: 1px solid;
+    overflow: auto;
+}
