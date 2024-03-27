@@ -1,0 +1,212 @@
+body{
+    background-color: gray;
+}
+h1{
+    text-align: center;
+}
+.flex{
+    display: flex;
+    background-color: aqua;
+}
+.flex > div{
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+    line-height: 75px;
+    color: antiquewhite;
+    background-color: rgb(0, 0, 0);
+    font-size: 20px;
+    margin: 10px;
+}
+/* ............................................................... */
+.flex2{
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+}
+.flex2 > div{
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+    line-height: 75px;
+    color: antiquewhite;
+    background-color: rgb(0, 0, 0);
+    font-size: 20px;
+    margin: 10px;
+}
+/* .................................................................... */
+.flex3{
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: green;
+}
+.flex3 > div{
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+    line-height: 75px;
+    color: antiquewhite;
+    background-color: rgb(0, 0, 0);
+    font-size: 20px;
+    margin: 10px;
+}
+/* ...................................................................... */
+.flex4{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: rgb(251, 255, 0);
+}
+.flex4 > div{
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+    line-height: 75px;
+    color: antiquewhite;
+    background-color: rgb(0, 0, 0);
+    font-size: 20px;
+    margin: 10px;
+}
+/* ----------------------------------------------------------------------- */
+.flex5{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(255, 0, 166);
+}
+.flex5 > div{
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+    line-height: 75px;
+    color: antiquewhite;
+    background-color: rgb(0, 0, 0);
+    font-size: 20px;
+    margin: 10px;
+}
+/* ----------------------------------------------------------------------- */
+.flex6{
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: rgb(149, 255, 0);
+}
+.flex6 > div{
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+    line-height: 75px;
+    color: antiquewhite;
+    background-color: rgb(0, 0, 0);
+    font-size: 20px;
+    margin: 10px;
+}
+/* ----------------------------------------------------------------------- */
+.flex7{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    background-color: rgb(120, 84, 133);
+}
+.flex7 > div{
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+    line-height: 75px;
+    color: antiquewhite;
+    background-color: rgb(0, 0, 0);
+    font-size: 20px;
+    margin: 10px;
+}
+/* ----------------------------------------------------------------------- */
+.flex8{
+    display: flex;
+    flex-wrap: row wrap;
+    background-color: rgb(143, 192, 139);
+}
+.flex8 > div{
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+    line-height: 75px;
+    color: antiquewhite;
+    background-color: rgb(0, 0, 0);
+    font-size: 20px;
+    margin: 10px;
+}
+/* ----------------------------------------------------------------------- */
+.flex9{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(179, 86, 104);
+}
+.flex9 > div{
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+    line-height: 75px;
+    color: antiquewhite;
+    background-color: rgb(0, 0, 0);
+    font-size: 20px;
+    margin: 10px;
+}
+/* ----------------------------------------------------------------------- */
+.flex10{
+    display: flex;
+    justify-content: flex-start;
+    background-color: rgb(33, 55, 63);
+}
+.flex10 > div{
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+    line-height: 75px;
+    color: antiquewhite;
+    background-color: rgb(0, 0, 0);
+    font-size: 20px;
+    margin: 10px;
+}
+/* ----------------------------------------------------------------------- */
+.flex11{
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(53, 40, 40);
+}
+.flex11 > div{
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+    line-height: 75px;
+    color: antiquewhite;
+    background-color: rgb(0, 0, 0);
+    font-size: 20px;
+    margin: 10px;
+}
+/* ----------------------------------------------------------------------- */
+.flex12{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(129, 69, 69);
+}
+.flex12 > div{
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+    line-height: 75px;
+    color: antiquewhite;
+    background-color: rgb(0, 0, 0);
+    font-size: 20px;
+    margin: 10px;
+}
+/* ----------------------------------------------------------------------- */
+.flex13{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+}
+.flex13 > div{
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+    line-height: 75px;
+    color: antiquewhite;
+    background-color: rgb(0, 0, 0);
+    font-size: 20px;
+    margin: 10px;
+}
