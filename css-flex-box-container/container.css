@@ -1,0 +1,219 @@
+body{
+    background-color: gray;
+}
+h1{
+    text-align: center;
+    font-size: 2.5rem;
+}
+.flex{
+    display: flex;
+    height: 200px;
+    align-items: center;
+    background-color: DodgerBlue;
+}
+.flex > div{
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+/* ............................................................... */
+.flex2{
+    display: flex;
+    height: 200px;
+    align-items: flex-start;
+    background-color: DodgerBlue;
+}
+.flex2 > div{
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+/* ............................................................... */
+.flex3{
+    display: flex;
+    height: 200px;
+    align-items: flex-end;
+    background-color: DodgerBlue;
+}
+.flex3 > div{
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+/* ............................................................... */
+.flex4{
+    display: flex;
+    height: 200px;
+    align-items: stretch;
+    background-color: DodgerBlue;
+}
+.flex4 > div{
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+/* ............................................................... */
+.flex5{
+    display: flex;
+    height: 200px;
+    align-items: baseline;
+    background-color: DodgerBlue;
+}
+.flex5 > div{
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+/* ............................................................... */
+.flex6{
+  display: flex;
+  height: 600px;
+  flex-wrap: wrap;
+  align-content: space-between;
+  overflow: scroll;
+  background-color: DodgerBlue;
+}
+.flex6 > div{
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+.flex7{
+  display: flex;
+  height: 600px;
+  flex-wrap: wrap;
+  align-content: space-around;
+  overflow: scroll;
+  background-color: DodgerBlue;
+}
+.flex7 > div{
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+/* ----------------------------------------------------------------------- */
+.flex8{
+    display: flex;
+    height: 600px;
+    flex-wrap: wrap;
+    align-content: stretch;
+    overflow: scroll;
+    background-color: DodgerBlue;
+  }
+  .flex8 > div{
+      background-color: #f1f1f1;
+      width: 100px;
+      margin: 10px;
+      text-align: center;
+      line-height: 75px;
+      font-size: 30px;
+  }
+  /* ----------------------------------------------------------------------- */
+  .flex9{
+    display: flex;
+    height: 600px;
+    flex-wrap: wrap;
+    align-content: center;
+    overflow: scroll;
+    background-color: DodgerBlue;
+  }
+  .flex9 > div{
+      background-color: #f1f1f1;
+      width: 100px;
+      margin: 10px;
+      text-align: center;
+      line-height: 75px;
+      font-size: 30px;
+  }
+  /* ----------------------------------------------------------------------- */
+  .flex10{
+    display: flex;
+    height: 600px;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    overflow: scroll;
+    background-color: DodgerBlue;
+  }
+  .flex10 > div{
+      background-color: #f1f1f1;
+      width: 100px;
+      margin: 10px;
+      text-align: center;
+      line-height: 75px;
+      font-size: 30px;
+  }
+  /* ----------------------------------------------------------------------- */
+  .flex11{
+    display: flex;
+    height: 600px;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    overflow: scroll;
+    background-color: DodgerBlue;
+  }
+  .flex11 > div{
+      background-color: #f1f1f1;
+      width: 100px;
+      margin: 10px;
+      text-align: center;
+      line-height: 75px;
+      font-size: 30px;
+  }
+  /* ----------------------------------------------------------------------- */
+  .flex12{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-color: DodgerBlue;
+  }
+  .flex12 > div{
+    background-color: #f1f1f1;
+    color: white;
+    width: 100px;
+    height: 100px;
+  }
+  /* ----------------------------------------------------------------------- */
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+th , td{
+    border: 3px solid black;
+    font-size: 1.5rem;
+}
+th{
+    text-align: left;
+    height: 70px;
+    vertical-align: top;
+    background-color: aquamarine;
+    padding: 20px;
+}
+td{
+    height: 50px;
+    vertical-align: bottom;
+    background-color: #f1f1f1;
+    align-content: center;
+}
+/* =============================================================================================== */
