@@ -1,0 +1,90 @@
+body{
+    background-color: gray;
+}
+h1{
+    text-align: center;
+    color: #f1f1f1;
+    text-shadow: 2px 5px 10px blue;
+}
+
+.flex-container {
+    display: flex;
+    background-color: #f1f1f1;
+  }
+  
+  .flex-container > div {
+    background-color: DodgerBlue;
+    color: white;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+  .flex-container1 {
+    display: flex;
+    align-items: stretch;
+    background-color: #f1f1f1;
+  }
+  
+  .flex-container1>div {
+    background-color: DodgerBlue;
+    color: white;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+  .flex-container2 {
+    display: flex;
+    height: 200px;
+    background-color: #f1f1f1;
+  }
+  
+  .flex-container2 > div {
+    background-color: DodgerBlue;
+    color: white;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+  .flex-container3 {
+    display: flex;
+    height: 200px;
+    background-color: #f1f1f1;
+  }
+  
+  .flex-container3 > div {
+    background-color: DodgerBlue;
+    color: white;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+  table{
+    border-collapse: collapse;
+    width: 100%;
+}
+th , td{
+    border: 3px solid black;
+    font-size: 1.5rem;
+}
+th{
+    text-align: left;
+    height: 70px;
+    vertical-align: top;
+    background-color: aquamarine;
+    padding: 20px;
+}
+td{
+    height: 50px;
+    vertical-align: bottom;
+    background-color: #f1f1f1;
+    align-content: center;
+}
+/* =============================================================================================== */

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="items.css">
+<body>
+    <h1>Flexible Items</h1>
+
+<div class="flex-container">
+  <div>1</div>
+  <div>2</div>
+  <div>3</div> 
+  <div>4</div>
+</div>
+
+<p>All direct children of a flexible container becomes flexible items.</p>
+<h1>The order Property</h1>
+
+<p>Use the order property to sort the flex items as you like:</p>
+
+<div class="flex-container">
+  <div style="order: 3">1</div>
+  <div style="order: 2">2</div>
+  <div style="order: 4">3</div> 
+  <div style="order: 1">4</div>
+</div>
+<h1>The flex-grow Property</h1>
+
+<p>Make the third flex item grow eight times faster than the other flex items:</p>
+
+<div class="flex-container">
+  <div style="flex-grow: 1">1</div>
+  <div style="flex-grow: 1">2</div>
+  <div style="flex-grow: 8">3</div>
+</div>
+<h1>The flex-shrink Property</h1>
+
+<p>Do not let the third flex item shrink as much as the other flex items:</p>
+
+<div class="flex-container">
+  <div>1</div>
+  <div>2</div>
+  <div style="flex-shrink: 0">3</div>
+  <div>4</div>
+  <div>5</div>
+  <div>6</div>
+  <div>7</div>
+  <div>8</div>
+  <div>9</div>
+  <div>10</div>
+</div>
+<h1>The flex-basis Property</h1>
+
+<p>Set the initial length of the third flex item to 200 pixels:</p>
+
+<div class="flex-container">
+  <div>1</div>
+  <div>2</div>
+  <div style="flex-basis:200px">3</div>
+  <div>4</div>
+</div>
+<h1>The flex Property</h1>
+
+<p>Make the third flex item not growable (0), not shrinkable (0), and with an initial length of 200 pixels:</p>
+
+<div class="flex-container1">
+  <div>1</div>
+  <div>2</div>
+  <div style="flex: 0 0 200px">3</div>
+  <div>4</div>
+</div>
+<h1>The align-self Property</h1>
+
+<p>The "align-self: center;" aligns the selected flex item in the middle of the container:</p>
+
+<div class="flex-container2">
+  <div>1</div>
+  <div>2</div>
+  <div style="align-self: center">3</div>
+  <div>4</div>
+</div>
+<h1>The align-self Property</h1>
+
+<p>The "align-self: flex-start;" aligns the selected flex item at the top of the container.</p>
+<p>The "align-self: flex-end;" aligns the selected flex item at the bottom of the container.</p>
+
+<div class="flex-container3">
+  <div>1</div>
+  <div style="align-self: flex-start">2</div>
+  <div style="align-self: flex-end">3</div>
+  <div>4</div>
+</div>
+
+<p>The align-self property overrides the align-items property of the container.</p>
+
+<table>
+    <tbody>
+        <tr>
+      <th style="width:25%">Property</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <td>align-self</td>
+      <td>Specifies the alignment for a flex item (overrides the flex container's align-items property)</td>
+    </tr>
+    <tr>
+      <td>flex</td>
+      <td>A shorthand property for the flex-grow, flex-shrink, and the flex-basis 
+      properties</td>
+    </tr>
+    <tr>
+      <td>flex-basis</td>
+      <td>Specifies the initial length of a flex item</td>
+    </tr>
+    <tr>
+      <td>flex-grow</td>
+      <td>Specifies how much a flex item will grow relative to the rest of the flex items inside the same container</td>
+    </tr>
+    <tr>
+      <td>flex-shrink</td>
+      <td>Specifies how much a flex item will shrink relative to the rest of the flex items inside the same container</td>
+    </tr>
+    <tr>
+      <td>order</td>
+      <td>Specifies the order of the flex items inside the same container</td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>
