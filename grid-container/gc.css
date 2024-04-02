@@ -1,0 +1,229 @@
+body {
+  background-color: rgb(169, 167, 167);
+}
+h1 {
+  text-align: center;
+  color: #f1f1f1;
+  text-shadow: 2px 5px 10px blue;
+}
+h2 {
+  text-align: center;
+  color: #f1f1f1;
+  text-shadow: 2px 5px 10px rgb(19, 100, 6);
+}
+p {
+  text-align: center;
+  color: #f1f1f1;
+  font-size: 1.2rem;
+  text-shadow: 2px 5px 10px rgb(0, 0, 0);
+}
+.c {
+  width: 100%;
+  height: 2vh;
+  background-color: black;
+  margin-top: 10px;
+}
+.c2 {
+  width: 100%;
+  height: 2vh;
+  background-color: rgb(255, 0, 0);
+  margin-top: 10px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
+  background-color: #2196f3;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+.grid-container1 {
+  display: grid;
+  grid-template-columns: 80px 200px auto 30px;
+  gap: 10px;
+  background-color: #2196f3;
+  padding: 10px;
+}
+
+.grid-container1 > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+.grid-container2 {
+  display: grid;
+  justify-content: space-evenly;
+  grid-template-columns: 50px 50px 50px; /*Make the grid smaller than the container*/
+  gap: 10px;
+  background-color: #2196f3;
+  padding: 10px;
+}
+
+.grid-container2 > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+.grid-container3 {
+  display: grid;
+  justify-content: space-around;
+  grid-template-columns: 50px 50px 50px; /*Make the grid smaller than the container*/
+  gap: 10px;
+  background-color: #2196f3;
+  padding: 10px;
+}
+
+.grid-container3 > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+.grid-container4 {
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: 50px 50px 50px; /*Make the grid smaller than the container*/
+  gap: 10px;
+  background-color: #2196f3;
+  padding: 10px;
+}
+
+.grid-container4 > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+.grid-container5 {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 50px 50px 50px; /*Make the grid smaller than the container*/
+  gap: 10px;
+  background-color: #2196f3;
+  padding: 10px;
+}
+
+.grid-container5 > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+.grid-container6 {
+  display: grid;
+  justify-content: start;
+  grid-template-columns: 50px 50px 50px; /*Make the grid smaller than the container*/
+  gap: 10px;
+  background-color: #2196f3;
+  padding: 10px;
+}
+
+.grid-container6 > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+.grid-container7 {
+  display: grid;
+  justify-content: end;
+  grid-template-columns: 50px 50px 50px; /*Make the grid smaller than the container*/
+  gap: 10px;
+  background-color: #2196f3;
+  padding: 10px;
+}
+
+.grid-container7 > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+.grid-container8 {
+  display: grid;
+  height: 400px;
+  align-content: center;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  background-color: #2196f3;
+  padding: 10px;
+}
+
+.grid-container8 > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+.grid-container9 {
+  display: grid;
+  height: 400px;
+  align-content: space-evenly;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  background-color: #2196f3;
+  padding: 10px;
+}
+
+.grid-container9 > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+.grid-container11 {
+  display: grid;
+  height: 400px;
+  align-content: space-around;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  background-color: #2196f3;
+  padding: 10px;
+}
+
+.grid-container11 > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+.grid-container12 {
+  display: grid;
+  height: 400px;
+  align-content: start;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  background-color: #2196f3;
+  padding: 10px;
+}
+
+.grid-container12 > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+.grid-container13 {
+  display: grid;
+  height: 400px;
+  align-content: end;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  background-color: #2196f3;
+  padding: 10px;
+}
+
+.grid-container13 > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
