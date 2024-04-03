@@ -1,0 +1,77 @@
+body {
+  background-color: gray;
+}
+h1 {
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+}
+h2 {
+  color: antiquewhite;
+  font-size: 1.4rem;
+  text-align: center;
+}
+h3 {
+  color: bisque;
+  font-size: 1.3rem;
+  text-align: center;
+}
+.item1 {
+  grid-area: logo;
+}
+.item2 {
+  grid-area: home;
+}
+.item3 {
+  grid-area: about;
+}
+.item4 {
+  grid-area: contact;
+}
+.item5 {
+  grid-area: services;
+}
+.item6 {
+  grid-area: img;
+}
+.item7 {
+  grid-area: text1;
+}
+.item8 {
+  grid-area: text2;
+}
+.item9 {
+  grid-area: text3;
+}
+.item10 {
+  grid-area: main;
+}
+.item11 {
+  grid-area: submain1;
+}
+.item12 {
+  grid-area: submain2;
+}
+.item13 {
+  grid-area: footer;
+}
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    "logo logo logo logo logo home about contact services"
+    "img img img img img text1 text1 text1 text1"
+    "img img img img img text2 text2 text2 text2"
+    "img img img img img text3 text3 text3 text3"
+    "main main main submain1 submain1 submain1 submain2 submain2 submain2"
+    "footer footer footer footer footer footer footer footer footer ";
+  gap: 10px;
+  background-color: #2196f3;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
